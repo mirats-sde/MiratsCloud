@@ -1,0 +1,77 @@
+.next-step-component {
+	background-color: #f8f9fa;
+	display: flex;
+	justify-content: space-around;
+	padding: 80px;
+}
+
+.next-step-component .next-step-left {
+	padding: 0px 40px;
+	width: 60%;
+}
+.next-step-component .next-step-left .title {
+	font-weight: 500;
+}
+
+.next-step-component .next-step-left p {
+	margin: 30px 0px;
+	color: #5f6368;
+	font-size: 18px;
+}
+
+.next-step-component .next-step-left h1 {
+	font-weight: 500;
+	font-size: 27px;
+}
+.next-step-component .next-step-left button {
+	border: none;
+	background-color: var(--btn-background);
+	padding: 15px 20px;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 18px;
+}
+.next-step-component .next-step-left button:hover {
+	background-color: var(--btn-hover);
+}
+.next-step-component .next-step-right {
+	border-left: 1px solid lightgray;
+	padding-left: 2rem;
+}
+
+.text-link {
+	margin-right: 50px;
+}
+
+.text-link a {
+	text-decoration: none;
+	color: #1a73e8;
+}
+
+.text-link ul {
+	list-style-type: none;
+	padding-left: 30px;
+}
+
+.text-link li {
+	margin-bottom: 20px;
+}
+
+@media (max-width:700px) {
+	.next-step-component {
+		display: block;
+		padding: 30px;
+	}
+
+	.next-step-component .next-step-left  {
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.next-step-component .next-step-right {
+		border-left: none;
+		padding-left: 0rem;
+	}
+}

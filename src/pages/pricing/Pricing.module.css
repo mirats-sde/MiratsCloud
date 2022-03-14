@@ -1,0 +1,104 @@
+@import "../../index.css";
+
+.pricing_page {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	letter-spacing: 0.2px;
+	word-spacing: 4px;
+	margin-top: 7.325rem;
+	/* border: 1px solid red; */
+}
+.head {
+	text-align: center;
+	width: 55vw;
+	margin: 3rem auto;
+}
+
+.head .title {
+	font-size: 40px;
+	font-weight: bold;
+}
+.head .desc {
+	color: rgb(61, 61, 61);
+	font-size: 20px;
+	margin-top: 2rem;
+}
+.heads_btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2rem;
+}
+.get_started_for_free_btn,
+.request_quote_btn {
+	background-color: rgb(235, 79, 79);
+	border: none;
+	outline: none;
+	width: 12rem;
+	height: 3rem;
+	color: white;
+	font-size: 17px;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 0.5px;
+}
+.request_quote_btn {
+	margin-right: 1.2rem;
+}
+.request_quote_btn:hover {
+	background-color: var(--btn-hover);
+	box-shadow: 0 1px 3px 0 black;
+	transition: 0.2s ease-in-out;
+}
+.get_started_for_free_btn {
+	border: 1px solid rgb(206, 206, 206);
+	color: var(--btn-background);
+	background: white;
+}
+.get_started_for_free_btn:hover {
+	border-color: var(--btn-background);
+	background-color: rgb(250, 225, 225);
+	color: rgb(155, 1, 1);
+	transition: all 0.2s ease-in-out;
+}
+.guidance_section {
+	/* border: 1px solid red; */
+	margin-top: 3rem;
+	text-align: center;
+}
+.guidance_section .title {
+	font-size: 33px;
+	font-weight: 600;
+}
+.guidance_cards {
+	display: flex;
+	/* border: 1px solid black; */
+	width: fit-content;
+	margin: 3rem auto;
+}
+.guidance_card {
+	width: 28vw;
+	border: 1px solid rgb(207, 207, 207);
+	border-radius: 6px;
+	margin: 0 0.5rem;
+	text-align: start;
+	display: flex;
+	flex-direction: column;
+	padding: 1.7rem;
+	cursor: pointer;
+}
+.guidance_card:hover {
+	box-shadow: 0 2px 4px gray;
+}
+.guidance_card .title {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.7rem;
+}
+.guidance_card .subtitle {
+	font-size: 16px;
+	color: rgb(8, 136, 255);
+	margin-top: 3rem;
+	font-weight: 500;
+}

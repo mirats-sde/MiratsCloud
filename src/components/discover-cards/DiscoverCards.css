@@ -1,0 +1,30 @@
+.discover-cards {
+    margin: 25px;
+    border: 1px solid #dbdddf;
+    border-radius: 10px;
+}
+
+.discover-cards:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.discover-card-body {
+    padding: 20px;
+    width: 25vw;
+}
+
+.discover-body {
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+.discover-link {
+    color: blue;
+    cursor: pointer;
+}
+
+@media (max-width:700px) {
+    .discover-card-body {
+        width: 100%;
+    }
+}

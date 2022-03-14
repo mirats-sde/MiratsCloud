@@ -1,0 +1,30 @@
+.header-showcase {
+    padding: 20px 0px;
+    margin-bottom: 40px;
+}
+
+.header-showcase h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.header-showcase p {
+	margin: 30px 0px;
+	color: #5f6368;
+	font-size: 18px;
+    line-height: 28px;
+}
+
+.header-showcase button {
+    border: none;
+    background-color: var(--btn-background);
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.header-showcase button:hover {
+    background-color: var(--btn-hover);
+}

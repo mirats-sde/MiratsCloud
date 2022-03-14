@@ -1,0 +1,32 @@
+.card-inner {
+    background-color: var(--primary-color);
+    padding: 25px;
+    width: 20vw;
+    /* height: 90%; */
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 10px 10px 0px;
+}
+
+.card-inner:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card-inner a {
+    color: black;
+}
+
+.link-headline,
+.link-body {
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+}
+
+.link-headline p{
+    font-size: 22px;
+}
+
+.link-body p {
+    color: #5f6368;
+}

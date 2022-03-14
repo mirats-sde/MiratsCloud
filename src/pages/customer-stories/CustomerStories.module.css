@@ -1,0 +1,117 @@
+@import "../../index.css";
+
+.cutomer_stories_page {
+	margin-top: 7.325rem;
+	padding: 4rem 0;
+}
+.head {
+	/* border: 1px solid red; */
+	width: 50vw;
+	margin-left: 8rem;
+	text-align: start;
+}
+.head .title {
+	font-weight: bold;
+	font-size: 35px;
+}
+.head .desc {
+	margin-top: 2rem;
+	line-height: 1.5rem;
+	font-size: 18px;
+}
+.head .btns {
+	margin-top: 1.5rem;
+}
+.head button {
+	background-color: white;
+	padding: 13px 20px;
+	border: none;
+	border-radius: 4px;
+	outline: none;
+	font-size: 17px;
+	cursor: pointer;
+}
+.head .get_started_btn {
+	background-color: var(--btn-background);
+	color: white;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+}
+.head .get_started_btn:hover {
+	background-color: rgb(236, 44, 44);
+	transition: all 0.2s ease-in-out;
+}
+.head .contact_sales_btn {
+	border: 1px solid rgb(206, 206, 206);
+	color: var(--btn-background);
+}
+.head .contact_sales_btn:hover {
+	border-color: var(--btn-background);
+	background-color: rgb(250, 225, 225);
+	color: rgb(155, 1, 1);
+	transition: all 0.2s ease-in-out;
+}
+.customer_stories_articles {
+	width: fit-content;
+	margin: 0 auto;
+	margin-top: 5rem;
+	/* border: 1px solid red; */
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+.leading_customers {
+	text-align: center;
+	margin-top: 2rem;
+}
+.title {
+	width: 50vw;
+	font-size: 30px;
+	margin: 0 auto;
+	font-weight: 500;
+}
+.subtitle {
+	margin-top: 1rem;
+	font-size: 18px;
+	color: rgb(73, 73, 73);
+}
+.leading_customer_cards {
+	/* border: 1px solid red; */
+	width: fit-content;
+	margin: 0 auto;
+	margin-top: 3rem;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+}
+
+@media (max-width: 1020px) {
+	.customer_stories_articles {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.leading_customer_cards {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+@media (max-width: 762px) {
+	.customer_stories_articles {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.leading_customer_cards {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.head {
+		width: 80vw;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.title {
+		width: 70vw;
+	}
+}
+@media (max-width: 500px) {
+	.leading_customer_cards {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.title {
+		width: 90vw;
+	}
+}

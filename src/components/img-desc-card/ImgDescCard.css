@@ -1,0 +1,23 @@
+.imgDesc-showcase {
+    margin: 20px 0px;
+}
+
+.imgDesc-showcase h3 {
+    font-size: 30px;
+}
+
+.imgDesc-showcase p {
+    margin: 30px 0px;
+    color: #5f6368;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.imgDesc-showcase .link {
+    color: #1a73e8;
+    text-decoration: underline;
+}
+
+.imgDesc-showcase .link:hover {
+    color:darkblue;
+}

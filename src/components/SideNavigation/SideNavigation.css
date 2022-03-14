@@ -1,0 +1,14 @@
+.side-navigation ul {
+	width: 100%;
+	list-style-type: none;
+	padding: 3px 15px;
+	border-left: 1px solid lightgray;
+}
+.side-navigation li {
+	margin: 5px 0px;
+}
+
+.side-navlink {
+	color: #5f6368;
+	text-decoration: none;
+}

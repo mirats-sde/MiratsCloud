@@ -1,0 +1,21 @@
+.partner-banner {
+    background-color: var(--btn-background);
+    padding: 60px;
+    margin: 20px 0px;
+}
+
+.banner-content {
+    text-align: center;
+    color: var(--primary-color);
+    font-weight: lighter;
+}
+
+.banner-content h1 {
+    font-size: 30px;
+}
+
+.banner-content p {
+    padding: 20px 250px;
+    font-size: 18px;
+    line-height: 25px;
+}

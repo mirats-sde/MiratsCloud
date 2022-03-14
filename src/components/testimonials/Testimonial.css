@@ -1,0 +1,36 @@
+.testimonial-data {
+    background-color: #f1f3f4;
+    text-align: center;
+    width: 85vw;
+    margin: 3rem auto;
+}
+
+.testimonial-data {
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.testimonial-data .testPara {
+    padding: 20px 100px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.foot-headline {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.testimonial-data .testBtn {
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    color: var(--btn-background);
+    cursor: pointer;
+    padding: 10px;
+}
+
+.testimonial-data .testBtn:hover {
+    padding: 10px;
+    background-color: #ffcccc;
+}
